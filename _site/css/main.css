@@ -1,29 +1,59 @@
 /* GLOBAL STYLES */
 
 body{
-  line-height: 1.2;
+  line-height: 1.2em;
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 }
 
-/* HOME PAGE */
-.tribute_title{
-  font-size: 2em;
-  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+body p {
+  margin: 25px 0 0 10px;
+  font-size: 1em;
+}
+
+body h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  border-bottom: 1px solid #a2a9b1;
   margin: 10px 0 0 10px;
 }
-.tribute_paragraph p{
-  margin: 0 0 0 10px;
-  font-size: 1em;
-  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+
+/* TRIBUTE SECTION */
+.tribute_title{
+  font-size: 2em;
+  margin: 10px 0 0 10px;
+  line-height: 1.3em;
+  border-bottom: 1px solid #a2a9b1;
 }
-.tribute_paragraph{
+
+.tribute_paragraph::after{
   content: "";
   clear: both;
 }
 .portrait {
-  border-style: 12 px solid;
-  border-color: #000;
+  border: 5px solid #000;
+  border-radius: 35px;
   float: right;
   height: 45vh;
-  
   margin: 0 1rem;
+  width: auto;
 }
+.composer_list{
+  list-style-type: disc;
+  margin: 0 0 0 25px;
+}
+
+/* RETURN TO RUSSIA SECTION */
+/* .return_title {
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  border-bottom: 1px solid #a2a9b1;
+  margin: 10px 0 0 10px;
+}
+
+
+/* DEATH SECION */
+.death_title{
+
+} */
