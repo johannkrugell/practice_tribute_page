@@ -1,0 +1,29 @@
+/* GLOBAL STYLES */
+
+body{
+  line-height: 1.2;
+}
+
+/* HOME PAGE */
+.tribute_title{
+  font-size: 2em;
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+  margin: 10px 0 0 10px;
+}
+.tribute_paragraph p{
+  margin: 0 0 0 10px;
+  font-size: 1em;
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+}
+.tribute_paragraph{
+  content: "";
+  clear: both;
+}
+.portrait {
+  border-style: 12 px solid;
+  border-color: #000;
+  float: right;
+  height: 45vh;
+  
+  margin: 0 1rem;
+}
